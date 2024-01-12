@@ -1,0 +1,19 @@
+.container {
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1rem;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(146, 146, 246);
+    border: solid 1px rgb(146, 146, 246);
+}
+
+.returned {
+    background-color: rgb(146, 146, 246);
+}
