@@ -14,11 +14,11 @@
     border: solid 1px rgb(146, 146, 246);
 }
 
-.returned {
+.hidden {
     background-color: rgb(146, 146, 246);
 }
-
-.returning {
-    background-color: rgba(146, 146, 246, 0.552);
-    color: rgb(146, 146, 246, 0.552);
+.visible {
+    background-color: transparent;
 }
+
+
