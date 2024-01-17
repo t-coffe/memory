@@ -17,7 +17,6 @@ function shuffleArray(arr) {
     } 
 }
 
-
 for (let i = 0; i < cards.length; i++) {
     const element = cards[i];
     element.addEventListener('click', ()=> {
@@ -35,14 +34,14 @@ for (let i = 0; i < cards.length; i++) {
         if (userReturnedCard === 1) {
             secondCard = element;
             if (secondCard === firstCard) {
-                console.log('same card clicked');
+                alert('same card clicked');
                 return;
             }
             element.classList.add('visible');
             element.classList.remove('hidden');
             userReturnedCard ++;
             if (firstCard.dataset.indexNumber === secondCard.dataset.indexNumber) {
-                console.log('same card');
+                console.log('+ 1 duo');
                 userReturnedCard = 0;
                 gameReturnedCard +=2;
             }else {
