@@ -1,5 +1,22 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(146, 146, 246);
+}
+
+/* main{
+    display: flex;
+    justify-content: center;
+} */
+ 
+h1 {
+    color: rgb(146, 146, 246);
+}
+
 .container {
-    width: 50vw;
+    width: 66vw;
     height: 50vh;
     display: grid;
     padding: 2rem;
@@ -12,13 +29,13 @@
     justify-content: center;
     color: rgb(146, 146, 246);
     border: solid 1px rgb(146, 146, 246);
-}
-
-.hidden {
     background-color: rgb(146, 146, 246);
 }
+
 .visible {
     background-color: transparent;
 }
 
-
+span {
+    font-style: italic;
+}
